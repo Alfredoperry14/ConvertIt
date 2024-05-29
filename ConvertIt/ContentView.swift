@@ -42,7 +42,7 @@ struct ContentView: View {
                     .pickerStyle(.segmented)
                 }
                 
-                var convertedTemp = unit == "Farenheit" ? "Celsius" : "Farenheit"
+                let convertedTemp = unit == "Farenheit" ? "Celsius" : "Farenheit"
                 
                 
                 Section("Temperature in \(convertedTemp)"){
